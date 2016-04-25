@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CAE8F6F1CCEB530007F464E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE8F6E1CCEB530007F464E /* main.m */; };
+		4CAE8F721CCEB530007F464E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE8F711CCEB530007F464E /* AppDelegate.m */; };
+		4CAE8F751CCEB530007F464E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE8F741CCEB530007F464E /* ViewController.m */; };
+		4CAE8F781CCEB530007F464E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAE8F761CCEB530007F464E /* Main.storyboard */; };
+		4CAE8F7B1CCEB530007F464E /* SafariViewControllerBugs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE8F791CCEB530007F464E /* SafariViewControllerBugs.xcdatamodeld */; };
+		4CAE8F7D1CCEB530007F464E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CAE8F7C1CCEB530007F464E /* Assets.xcassets */; };
+		4CAE8F801CCEB530007F464E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAE8F7E1CCEB530007F464E /* LaunchScreen.storyboard */; };
+		4CAE8F8B1CCEB530007F464E /* SafariViewControllerBugsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE8F8A1CCEB530007F464E /* SafariViewControllerBugsTests.m */; };
+		4CAE8F961CCEB530007F464E /* SafariViewControllerBugsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE8F951CCEB530007F464E /* SafariViewControllerBugsUITests.m */; };
+		4CAE8FA41CCEB550007F464E /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAE8FA31CCEB54F007F464E /* SafariServices.framework */; };
+		4CAE8FA71CCEB750007F464E /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE8FA61CCEB750007F464E /* ContainerViewController.m */; };
+		4CAE8FA81CCEB750007F464E /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE8FA61CCEB750007F464E /* ContainerViewController.m */; };
+		4CAE8FA91CCEB750007F464E /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE8FA61CCEB750007F464E /* ContainerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CAE8F871CCEB530007F464E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CAE8F621CCEB530007F464E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CAE8F691CCEB530007F464E;
+			remoteInfo = SafariViewControllerBugs;
+		};
+		4CAE8F921CCEB530007F464E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CAE8F621CCEB530007F464E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CAE8F691CCEB530007F464E;
+			remoteInfo = SafariViewControllerBugs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CAE8F6A1CCEB530007F464E /* SafariViewControllerBugs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariViewControllerBugs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAE8F6E1CCEB530007F464E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CAE8F701CCEB530007F464E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CAE8F711CCEB530007F464E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CAE8F731CCEB530007F464E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CAE8F741CCEB530007F464E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CAE8F771CCEB530007F464E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CAE8F7A1CCEB530007F464E /* SafariViewControllerBugs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SafariViewControllerBugs.xcdatamodel; sourceTree = "<group>"; };
+		4CAE8F7C1CCEB530007F464E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CAE8F7F1CCEB530007F464E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CAE8F811CCEB530007F464E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CAE8F861CCEB530007F464E /* SafariViewControllerBugsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariViewControllerBugsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAE8F8A1CCEB530007F464E /* SafariViewControllerBugsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariViewControllerBugsTests.m; sourceTree = "<group>"; };
+		4CAE8F8C1CCEB530007F464E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CAE8F911CCEB530007F464E /* SafariViewControllerBugsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariViewControllerBugsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAE8F951CCEB530007F464E /* SafariViewControllerBugsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariViewControllerBugsUITests.m; sourceTree = "<group>"; };
+		4CAE8F971CCEB530007F464E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CAE8FA31CCEB54F007F464E /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		4CAE8FA51CCEB750007F464E /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		4CAE8FA61CCEB750007F464E /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CAE8F671CCEB530007F464E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAE8FA41CCEB550007F464E /* SafariServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAE8F831CCEB530007F464E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAE8F8E1CCEB530007F464E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CAE8F611CCEB530007F464E = {
+			isa = PBXGroup;
+			children = (
+				4CAE8FA31CCEB54F007F464E /* SafariServices.framework */,
+				4CAE8F6C1CCEB530007F464E /* SafariViewControllerBugs */,
+				4CAE8F891CCEB530007F464E /* SafariViewControllerBugsTests */,
+				4CAE8F941CCEB530007F464E /* SafariViewControllerBugsUITests */,
+				4CAE8F6B1CCEB530007F464E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CAE8F6B1CCEB530007F464E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CAE8F6A1CCEB530007F464E /* SafariViewControllerBugs.app */,
+				4CAE8F861CCEB530007F464E /* SafariViewControllerBugsTests.xctest */,
+				4CAE8F911CCEB530007F464E /* SafariViewControllerBugsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CAE8F6C1CCEB530007F464E /* SafariViewControllerBugs */ = {
+			isa = PBXGroup;
+			children = (
+				4CAE8F701CCEB530007F464E /* AppDelegate.h */,
+				4CAE8F711CCEB530007F464E /* AppDelegate.m */,
+				4CAE8F731CCEB530007F464E /* ViewController.h */,
+				4CAE8F741CCEB530007F464E /* ViewController.m */,
+				4CAE8FA51CCEB750007F464E /* ContainerViewController.h */,
+				4CAE8FA61CCEB750007F464E /* ContainerViewController.m */,
+				4CAE8F761CCEB530007F464E /* Main.storyboard */,
+				4CAE8F7C1CCEB530007F464E /* Assets.xcassets */,
+				4CAE8F7E1CCEB530007F464E /* LaunchScreen.storyboard */,
+				4CAE8F811CCEB530007F464E /* Info.plist */,
+				4CAE8F791CCEB530007F464E /* SafariViewControllerBugs.xcdatamodeld */,
+				4CAE8F6D1CCEB530007F464E /* Supporting Files */,
+			);
+			path = SafariViewControllerBugs;
+			sourceTree = "<group>";
+		};
+		4CAE8F6D1CCEB530007F464E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CAE8F6E1CCEB530007F464E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CAE8F891CCEB530007F464E /* SafariViewControllerBugsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CAE8F8A1CCEB530007F464E /* SafariViewControllerBugsTests.m */,
+				4CAE8F8C1CCEB530007F464E /* Info.plist */,
+			);
+			path = SafariViewControllerBugsTests;
+			sourceTree = "<group>";
+		};
+		4CAE8F941CCEB530007F464E /* SafariViewControllerBugsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CAE8F951CCEB530007F464E /* SafariViewControllerBugsUITests.m */,
+				4CAE8F971CCEB530007F464E /* Info.plist */,
+			);
+			path = SafariViewControllerBugsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CAE8F691CCEB530007F464E /* SafariViewControllerBugs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAE8F9A1CCEB530007F464E /* Build configuration list for PBXNativeTarget "SafariViewControllerBugs" */;
+			buildPhases = (
+				4CAE8F661CCEB530007F464E /* Sources */,
+				4CAE8F671CCEB530007F464E /* Frameworks */,
+				4CAE8F681CCEB530007F464E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafariViewControllerBugs;
+			productName = SafariViewControllerBugs;
+			productReference = 4CAE8F6A1CCEB530007F464E /* SafariViewControllerBugs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CAE8F851CCEB530007F464E /* SafariViewControllerBugsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAE8F9D1CCEB530007F464E /* Build configuration list for PBXNativeTarget "SafariViewControllerBugsTests" */;
+			buildPhases = (
+				4CAE8F821CCEB530007F464E /* Sources */,
+				4CAE8F831CCEB530007F464E /* Frameworks */,
+				4CAE8F841CCEB530007F464E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CAE8F881CCEB530007F464E /* PBXTargetDependency */,
+			);
+			name = SafariViewControllerBugsTests;
+			productName = SafariViewControllerBugsTests;
+			productReference = 4CAE8F861CCEB530007F464E /* SafariViewControllerBugsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CAE8F901CCEB530007F464E /* SafariViewControllerBugsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAE8FA01CCEB530007F464E /* Build configuration list for PBXNativeTarget "SafariViewControllerBugsUITests" */;
+			buildPhases = (
+				4CAE8F8D1CCEB530007F464E /* Sources */,
+				4CAE8F8E1CCEB530007F464E /* Frameworks */,
+				4CAE8F8F1CCEB530007F464E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CAE8F931CCEB530007F464E /* PBXTargetDependency */,
+			);
+			name = SafariViewControllerBugsUITests;
+			productName = SafariViewControllerBugsUITests;
+			productReference = 4CAE8F911CCEB530007F464E /* SafariViewControllerBugsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CAE8F621CCEB530007F464E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					4CAE8F691CCEB530007F464E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4CAE8F851CCEB530007F464E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4CAE8F691CCEB530007F464E;
+					};
+					4CAE8F901CCEB530007F464E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4CAE8F691CCEB530007F464E;
+					};
+				};
+			};
+			buildConfigurationList = 4CAE8F651CCEB530007F464E /* Build configuration list for PBXProject "SafariViewControllerBugs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CAE8F611CCEB530007F464E;
+			productRefGroup = 4CAE8F6B1CCEB530007F464E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CAE8F691CCEB530007F464E /* SafariViewControllerBugs */,
+				4CAE8F851CCEB530007F464E /* SafariViewControllerBugsTests */,
+				4CAE8F901CCEB530007F464E /* SafariViewControllerBugsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CAE8F681CCEB530007F464E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAE8F801CCEB530007F464E /* LaunchScreen.storyboard in Resources */,
+				4CAE8F7D1CCEB530007F464E /* Assets.xcassets in Resources */,
+				4CAE8F781CCEB530007F464E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAE8F841CCEB530007F464E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAE8F8F1CCEB530007F464E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CAE8F661CCEB530007F464E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAE8F751CCEB530007F464E /* ViewController.m in Sources */,
+				4CAE8F721CCEB530007F464E /* AppDelegate.m in Sources */,
+				4CAE8F6F1CCEB530007F464E /* main.m in Sources */,
+				4CAE8F7B1CCEB530007F464E /* SafariViewControllerBugs.xcdatamodeld in Sources */,
+				4CAE8FA71CCEB750007F464E /* ContainerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAE8F821CCEB530007F464E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAE8FA81CCEB750007F464E /* ContainerViewController.m in Sources */,
+				4CAE8F8B1CCEB530007F464E /* SafariViewControllerBugsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAE8F8D1CCEB530007F464E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAE8FA91CCEB750007F464E /* ContainerViewController.m in Sources */,
+				4CAE8F961CCEB530007F464E /* SafariViewControllerBugsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CAE8F881CCEB530007F464E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CAE8F691CCEB530007F464E /* SafariViewControllerBugs */;
+			targetProxy = 4CAE8F871CCEB530007F464E /* PBXContainerItemProxy */;
+		};
+		4CAE8F931CCEB530007F464E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CAE8F691CCEB530007F464E /* SafariViewControllerBugs */;
+			targetProxy = 4CAE8F921CCEB530007F464E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CAE8F761CCEB530007F464E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAE8F771CCEB530007F464E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CAE8F7E1CCEB530007F464E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAE8F7F1CCEB530007F464E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CAE8F981CCEB530007F464E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CAE8F991CCEB530007F464E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CAE8F9B1CCEB530007F464E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SafariViewControllerBugs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twitter.SafariViewControllerBugs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CAE8F9C1CCEB530007F464E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SafariViewControllerBugs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twitter.SafariViewControllerBugs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CAE8F9E1CCEB530007F464E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SafariViewControllerBugsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twitter.SafariViewControllerBugsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariViewControllerBugs.app/SafariViewControllerBugs";
+			};
+			name = Debug;
+		};
+		4CAE8F9F1CCEB530007F464E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SafariViewControllerBugsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twitter.SafariViewControllerBugsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariViewControllerBugs.app/SafariViewControllerBugs";
+			};
+			name = Release;
+		};
+		4CAE8FA11CCEB530007F464E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SafariViewControllerBugsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twitter.SafariViewControllerBugsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SafariViewControllerBugs;
+			};
+			name = Debug;
+		};
+		4CAE8FA21CCEB530007F464E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SafariViewControllerBugsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twitter.SafariViewControllerBugsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SafariViewControllerBugs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CAE8F651CCEB530007F464E /* Build configuration list for PBXProject "SafariViewControllerBugs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAE8F981CCEB530007F464E /* Debug */,
+				4CAE8F991CCEB530007F464E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAE8F9A1CCEB530007F464E /* Build configuration list for PBXNativeTarget "SafariViewControllerBugs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAE8F9B1CCEB530007F464E /* Debug */,
+				4CAE8F9C1CCEB530007F464E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CAE8F9D1CCEB530007F464E /* Build configuration list for PBXNativeTarget "SafariViewControllerBugsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAE8F9E1CCEB530007F464E /* Debug */,
+				4CAE8F9F1CCEB530007F464E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CAE8FA01CCEB530007F464E /* Build configuration list for PBXNativeTarget "SafariViewControllerBugsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAE8FA11CCEB530007F464E /* Debug */,
+				4CAE8FA21CCEB530007F464E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4CAE8F791CCEB530007F464E /* SafariViewControllerBugs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4CAE8F7A1CCEB530007F464E /* SafariViewControllerBugs.xcdatamodel */,
+			);
+			currentVersion = 4CAE8F7A1CCEB530007F464E /* SafariViewControllerBugs.xcdatamodel */;
+			path = SafariViewControllerBugs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4CAE8F621CCEB530007F464E /* Project object */;
+}
